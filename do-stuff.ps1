@@ -7,7 +7,7 @@
 & git push --set-upstream origin MY_FEAT
 & git checkout -b HOT_FIX
 & git push --set-upstream origin HOT_FIX
-& git checkout -b MY_FEAT
+& git checkout MY_FEAT
 echo Hello > lkdsjflk.txt
 
 echo world > lsadkjflsaj.bla
