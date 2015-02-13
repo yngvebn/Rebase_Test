@@ -38,10 +38,10 @@ echo fix >> test2.txt
 
 echo fix >> test3.txt
 & git add . -A
-& git commit -m'(hot_fix) commit 2'
+& git commit -m'(hot_fix) commit 1'
 & git push
 echo fix2 >> test3.txt
 & git add . -A
-& git commit -m'(hot_fix) commit 3'
+& git commit -m'(hot_fix) commit 2'
 & git push
 & git checkout master
