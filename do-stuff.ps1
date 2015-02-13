@@ -5,6 +5,12 @@
 
 & git checkout -b MY_FEAT
 & git push --set-upstream origin MY_FEAT
+
+echo world >> lsadkjflsaj.bla
+& git add . -A
+& git commit -m'some stuff'
+& git push
+
 & git checkout -b HOT_FIX
 & git push --set-upstream origin HOT_FIX
 & git checkout MY_FEAT
@@ -33,3 +39,4 @@ echo fix2 >> test3.txt
 & git add . -A
 & git commit -m'some stuff'
 & git push
+& git checkout master
