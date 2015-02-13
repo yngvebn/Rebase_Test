@@ -1,7 +1,12 @@
+& git branch -D develop
 & git branch -D MY_FEAT
 & git branch -D HOT_FIX
+
+& git push origin --delete develop
 & git push origin --delete HOT_FIX
 & git push origin --delete MY_FEAT
+& git checkout -b develop
+& git push --set-upstream origin develop
 
 & git checkout -b MY_FEAT
 & git push --set-upstream origin MY_FEAT
@@ -21,11 +26,11 @@ echo world >> lsadkjflsaj.bla
 & git commit -m'(hot_fix) commit 1'
 & git push
 
-& git checkout master
+& git checkout develop
 echo You >> test2.txt
 echo fix >> test2.txt
 & git add . -A
-& git commit -m'(master) commit 1'
+& git commit -m'(develop) commit 1'
 & git push
 & git checkout MY_FEAT
 
