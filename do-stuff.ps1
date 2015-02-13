@@ -8,7 +8,7 @@
 
 echo world >> lsadkjflsaj.bla
 & git add . -A
-& git commit -m'some stuff'
+& git commit -m'(my_feat) commit 1'
 & git push
 
 & git checkout -b HOT_FIX
@@ -18,14 +18,14 @@ echo Hello >> lkdsjflk.txt
 
 echo world >> lsadkjflsaj.bla
 & git add . -A
-& git commit -m'some stuff'
+& git commit -m'(hot_fix) commit 1'
 & git push
 
 & git checkout master
 echo You >> test2.txt
 echo fix >> test2.txt
 & git add . -A
-& git commit -m'some stuff'
+& git commit -m'(master) commit 1'
 & git push
 & git checkout MY_FEAT
 
@@ -33,10 +33,10 @@ echo fix >> test2.txt
 
 echo fix >> test3.txt
 & git add . -A
-& git commit -m'some stuff'
+& git commit -m'(hot_fix) commit 2'
 & git push
 echo fix2 >> test3.txt
 & git add . -A
-& git commit -m'some stuff'
+& git commit -m'(hot_fix) commit 3'
 & git push
 & git checkout master
