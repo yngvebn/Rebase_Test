@@ -23,7 +23,7 @@ echo Hello >> lkdsjflk.txt
 
 echo world >> lsadkjflsaj.bla
 & git add . -A
-& git commit -m'(hot_fix) commit 1'
+& git commit -m'(my_feat) commit 1'
 & git push
 
 & git checkout develop
