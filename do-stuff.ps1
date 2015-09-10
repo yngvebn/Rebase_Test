@@ -45,3 +45,5 @@ echo fix2 >> test3.txt
 & git commit -m'(hot_fix) commit 2'
 & git push
 & git checkout master
+
+Write-Host Change is gonna come!
